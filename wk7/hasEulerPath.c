@@ -26,7 +26,7 @@ bool hasEulerPath(Graph g) {
 	}
 
 	int numOddDegree = 0;
-	for (int i = 0; i < g->nV) {
+	for (int i = 0; i < g->nV; i++) {
         if (degree[i] % 2 == 1) {
 			numOddDegree++;
 		}
